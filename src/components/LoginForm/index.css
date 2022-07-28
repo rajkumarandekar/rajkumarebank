@@ -1,0 +1,84 @@
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #152850;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 70%;
+  border-radius: 30px;
+  background-color: #e0eefe;
+  background-size: cover;
+}
+.login-website-logo-mobile-image {
+  width: 50%;
+  height: 100%;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  background-color: #ffffff;
+  width: 80%;
+  height: 100%;
+  border-radius: 30px;
+  flex-direction: row;
+}
+.form-container {
+  font-size: 20px;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 20px;
+}
+.login-button {
+  color: #ffffff;
+  background-color: #1565d8;
+  border-color: none;
+  border-radius: 5px;
+  width: 65%;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
+  margin: 20px;
+  margin-left: 0px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+
+  width: 80%;
+}
+.error-message {
+  color: #ff0b37;
+  font-size: 18px;
+}
+.input-label {
+  font-size: 18px;
+  font-weight: 500px;
+  padding-bottom: 5px;
+}
+.password-input-filed {
+  background-color: transparent;
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 10px;
+}
+.username-input-filed {
+  background-color: transparent;
+  width: 80%;
+  height: 30px;
+  border-radius: 6px;
+  color: black;
+}
